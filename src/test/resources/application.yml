@@ -1,0 +1,5 @@
+#테스트용 독립된 환경
+spring:
+
+logging.level:
+  org.hibernate.SQL: debug
