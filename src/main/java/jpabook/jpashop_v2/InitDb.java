@@ -8,6 +8,15 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+/*
+ * 총 주문 2개
+    *user A
+    *   JPA1 BOOK
+    *   JPA2 BOOK
+    * user B
+    *   SPRING1 BOOK
+    *   SPRING2 BOOK
+ */
 @Component
 @RequiredArgsConstructor
 public class InitDb {
